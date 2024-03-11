@@ -1,0 +1,71 @@
+.navigation-menu {
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.navigation-menu a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.navigation-menu .icon-button svg {
+  border: 1px solid #FFF;
+  padding: 0.5rem;
+  height: 2rem;
+  width: 2rem;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+}
+
+.navigation-menu .icon-button i {
+  border: 1px solid #FFF;
+  padding: 0.5rem;
+  height: 2rem;
+  width: 2rem;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+}
+
+.navigation-menu-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: initial;
+  flex-wrap: nowrap;
+  width: 250px;
+  position: absolute;
+  background-color: #1e1e1e;
+  border-radius: 2px;
+  color: #FFF;
+  top: 0%;
+  margin-right: 20px;
+  margin-top: 40%;
+  right: -80%;
+  padding: 2rem 1.4rem;
+  font-size: 1.6rem;
+  gap: 1rem;
+  box-shadow: 0px 1px 5px #000000a6;
+  padding-right: 80px;
+
+  display: none;
+}
+
+.navigation-menu:hover .navigation-menu-content  {
+  display: flex;
+}
+
+.collapsible {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.collapsible-title button {
+  margin-right: 2rem;
+}

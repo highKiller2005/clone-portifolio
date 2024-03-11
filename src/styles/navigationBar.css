@@ -1,0 +1,81 @@
+@import url('./navigationMenu.css');
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1.3rem 1.8rem;
+  font-size: 2rem;
+  padding-bottom: 0rem;
+  font-weight: 400;
+  color: #FFF;
+  background-color: #1e1e1e;
+  font-family: 'Poppins', sans-serif;
+  z-index: 2018;
+  transition: background-color 0.2s;
+  height: 56px;
+}
+
+nav.initial {
+  background-color: #00000000;
+}
+
+nav > a {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 1rem;
+  color: #FFF;
+  text-decoration: none;
+}
+
+nav > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  margin-top: -5px;
+  margin-right: -5px;
+}
+
+nav .search-icon {
+  font-size: 1.6rem;
+  padding: 2rem;
+}
+
+nav .search-icon svg {
+  font-size: 1.6rem;
+  padding: 2rem;
+}
+
+.navigation-menu {
+  cursor: pointer;
+}
+
+.navigation-menu-title {
+  font-size: 1.6rem;
+  display: flex;
+  width: fit-content;
+  margin-top: 2px;
+}
+
+.navigation-menu-title.home {
+  font-weight: 700;
+}
+
+.navigation-menu-title span {
+  margin-top: -2px;
+  margin-left: -2px;
+  width: 20px;
+}
+
+.navigation-menu-title svg {
+  margin-left: 3px;
+  margin-top: 3px;
+  width: 2.4rem;
+  height: 2.4rem;
+  fill: #FFF;
+}

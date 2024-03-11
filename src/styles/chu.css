@@ -1,0 +1,13 @@
+section {
+  display: flex;
+  justify-content: center;
+  gap: 3rem
+}
+
+.button {
+  height: 3.6rem;
+  width: 16.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

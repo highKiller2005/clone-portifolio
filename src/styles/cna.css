@@ -1,0 +1,14 @@
+section {
+  display: flex;
+  justify-content: space-around;
+  width: 77%;
+  margin: 0 auto;
+}
+
+.button {
+  height: 3.6rem;
+  width: 16.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
